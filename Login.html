@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+<style>
+    .Thank{
+    background-color: aliceblue;
+    width: 600px;
+    height: 400px;
+  margin-top: 25vh;
+  margin-left: 33vw;
+  padding: 20px;
+    }
+    .Thank img{
+        margin-top: 65px;
+        margin-left: 45px;
+    }
+    .Thank p{
+        margin-left: 50px;
+        color:blue;
+        
+    }
+    .Thank button{
+        margin-left: 16vw;
+        color: aliceblue;
+        background-color: rgb(31, 152, 233);
+    }
+</style>
+</head>
+<body style="background-color: blue;">
+    <div class="Thank">
+        <img src="Register bg image.jpg" alt="">
+        <p id = 'p1'> <i><b>Hello everyone I am Vishnu</b></i>
+        </p>
+        <button id="b">Click me</button>
+    </div>
+    <script>
+        document.getElementById("b").onclick = function(){
+            document.getElementById("p1").innerHTML = "Thankyou for registering,I completed developing the register form...!"
+        }
+    </script>
+</body>
+</html>

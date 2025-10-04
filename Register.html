@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="RegisterStyle.css">
+    <script src = "Register.js" defer></script>
+
+
+</head>
+<body>
+  
+    <div class="container">
+    <form action="Login.html" id="form">
+
+        <center><h1 style="color: blue;">Register</h1>
+</center>
+        <div class="box">
+            <label for="username">Username</label>
+            <input type="text" id="uname" name = "username">
+            <div class="error"></div>
+        </div>
+
+        <div class="box">
+            <label for="email">Emai id</label>
+            <input type="text" id="email" name = "email">
+            <div class="error"></div>
+        </div>
+
+       <div class="box">
+            <label for="Password">Password</label>
+            <input type="password" id="pass" name = "Password">
+            <div class="error"></div>
+        </div>
+
+        <div class="box">
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" id="cpass" name = "cpass">
+            <div class="error"></div>          
+        </div>
+        <button type="submit">Register</button>
+    </form>
+    
+  </div>
+</body>
+</html>
